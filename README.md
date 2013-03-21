@@ -1,5 +1,23 @@
-The Effin Package Manager.  Help make building RPMs easy.
+# fpm-cookbook
+installs fpm
 
-For an example of using fpm, see:
+# Requirements
+* Chef 10.x
 
-https://gist.github.com/3055651
+Platform:
+* CentOS 6.x
+* RHEL 6.x
+
+# Usage
+Add the fpm-cookbook to your role/run_list.
+
+# Attributes
+* ```node["fpm"]["gem_binary"]``` - Path to gem, default is /usr/bin/gem 
+* ```node['fpm']['version']``` - version to install, default is 0.4.10
+
+# Recipes
+## default
+Installs fpm
+
+# Authors
+* Kevin Young (@keviny22)
