@@ -5,10 +5,14 @@ desc "tag master branch"
 task "tag_master" => ["get_version", "checkout_master", "push_tag", "verify_tag"]
 
 task "get_version" do
-
-  metadata_file = 'metadata.rb'
-  @metadata = Chef::Cookbook::Metadata.new
-  @metadata.from_file(metadata_file)
+  begin
+    metadata_file = 'metadata.rb'
+    @metadata = Chef::Cookbook::Metadata.new
+    @metadata.from_file(metadata_file)
+  rescue  => err
+    puts "Exception: #{err}"
+    exit
+  end
 end
 
 task "checkout_master" do
