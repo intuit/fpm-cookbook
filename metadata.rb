@@ -1,3 +1,4 @@
+name             "fpm"
 maintainer       "Intuit, Inc."
 maintainer_email "kevin_young@intuit.com"
 description      "Installs Effin Package Manager"
