@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/intuit/fpm-cookbook.png)](http://travis-ci.org/intuit/fpm-cookbook)
+
 # fpm-cookbook
 installs fpm
 
