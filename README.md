@@ -1,5 +1,7 @@
 [![Build Status](https://secure.travis-ci.org/intuit/fpm-cookbook.png)](http://travis-ci.org/intuit/fpm-cookbook)
 
+**!!! This project has been deprecated.  We recommend you search the [Chef Supermarket ](https://supermarket.chef.io/) for a supported alternative !!!**
+
 # fpm-cookbook
 installs fpm
 
